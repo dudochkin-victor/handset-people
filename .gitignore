@@ -1,0 +1,6 @@
+Makefile
+meego-handset-people
+meego-handset-people.pro.user
+.gen
+.moc
+.obj

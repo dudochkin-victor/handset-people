@@ -1,0 +1,35 @@
+Changes in 0.2.31
+
+855c Changed layout of CardView so multiple items are not placed in one cell Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+404a Adding MeCard to sections counters to fix BMC#6007 Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+
+Changes in 0.2.30
+
+e338... BMC#667  Email button doesn't work BMC#3205 People: Call/SMS do not launch from w/ pre-populated data BMC#4811 Unable to always save edited content BMC#6009 Unable to save contact as favorite BMC#6281 Alphabetical bar is not displayed properly in portrait mode in People BMC#7404 No respond after tapping 'Account Path' button and 'Chat Id' button IM BMC#3312 People: Location of favorites and status icon BMC#6118 The list for contacts expand entries to fit on the screen BMC#6521 Contacts name can't be updated in contacts list after changing name BMC#6788 Search function does not automatically reveal the keyboard BMC#6789 Save action is not placed correctly BMC#6792 Contact detail view has an Edit button BMC#6793 Search and Add contact items are not consistent with the rest of views BMC#6794 SMS button has a solid background BMC#6795 Show recent and Show favorites are not ordered correctly BMC#6798 Me card is referred to as MeCard BMC#6800 Edit option in the object menu BMC#7485 Home screen is NOT displayed very well in portrait mode Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+b159... Dbus interface added to set thumbnail from Photo application given a Uuid. Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+
+Changes in 0.2.29
+
+dfb5... Modifying People to use dbus interface for MeegoChat/IM app Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+2592... Adding dbus interface to launch People in details view for given QContactLocalId FEA #3068 Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+c20d... Fixing .pro file error -lseaside Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+
+Changes in 0.2.28
+
+fb09... Merging build patch upstream Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+
+Changes in 0.2.27
+
+4317... Added IM/Email launch from ObjectMenu (tap+hold) and from the DetailsView. Also added IM to Detail and Edit screens. Reads QContactOnlineAccount from tracker backend to persistently store IM contacts.FEA#4178, 4187,4190,4191,4195.Added translations for all but comms/detail/edit page that will move to seaside. Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+c482... Added dbus call to launch email compose window from people detail view.  FEA#4190 BMC# 667 Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+dd94... Adding MeCard feature so user can save their personal contact information using qtcontacts-tracker QContactLocalId's selfId, no FEA# availiable. Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+a94b... Merging patch upstream for pkgconfig and libmeegotouch updates Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+d9b2... Adding qtcontacts as a library dependency Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+
+Changes in 0.2.26
+
+e513... Adding i18n to first and last name fields Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+1ef1... Separating First and Last name Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+7262... Moved filters into group and search/add into mapplicationmenu Signed-off-by: Connie Berardi <connie.berardi@intel.com>
+
+

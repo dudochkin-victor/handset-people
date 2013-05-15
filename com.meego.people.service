@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=com.meego.people
+Exec=/usr/bin/meego-handset-people
