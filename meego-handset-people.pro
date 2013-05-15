@@ -10,6 +10,8 @@ unix {
 }
 CONFIG += link_pkgconfig meegotouch mobility qt 
 PKGCONFIG += meegotouch 
+MOBILITY+=contacts
+
 TEMPLATE = app
 SUBDIRS = theme
 MOC_DIR = .moc
